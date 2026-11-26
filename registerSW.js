@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/wow-dungeon-finder/sw.js', { scope: '/wow-dungeon-finder/' })})}
